@@ -78,6 +78,20 @@ namespace MeuApp
         else{
             Console.WriteLine("Opa");
         }
+        if(a == b){
+            Console.WriteLine("é igual");
+        }
+        else{
+            Console.WriteLine("é Diferente");
+            
+        }
+        if(a != b){
+            Console.WriteLine("é Diferente");
+        }
+        else{
+            Console.WriteLine("é igual");
+        }
+        
         }
     }
 }
