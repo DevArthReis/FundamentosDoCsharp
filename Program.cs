@@ -91,7 +91,26 @@ namespace MeuApp
         else{
             Console.WriteLine("é igual");
         }
-        
+        var correta = 1234; // Senha correta
+        Console.WriteLine("Digite sua senha:");
+        var input = Console.ReadLine();
+
+        // Verifica se a entrada é um número válido
+        if (int.TryParse(input, out int senha))
+        {
+            if (senha == correta)
+            {
+                Console.WriteLine("Acesso permitido!");
+            }
+            else
+            {
+                Console.WriteLine("Senha incorreta. Tente novamente.");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Entrada inválida. Por favor, insira apenas números.");
+        }
         }
     }
 }
