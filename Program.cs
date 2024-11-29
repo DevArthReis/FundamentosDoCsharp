@@ -111,6 +111,15 @@ namespace MeuApp
         {
             Console.WriteLine("Entrada inválida. Por favor, insira apenas números.");
         }
+        //Switch cases
+        string valor = "Arthur";
+        switch(valor)
+        {//case=caso caso algo faça isso 
+            case "jOAO":Console.WriteLine("esta errado");break;
+            case "Marcelo":Console.WriteLine("esta errado");break;
+            case "Marquito":Console.WriteLine("esta errado");break;
+            default:Console.WriteLine("Não encontrei");break;
+        }
         }
     }
 }
