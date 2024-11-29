@@ -120,6 +120,18 @@ namespace MeuApp
             case "Marquito":Console.WriteLine("esta errado");break;
             default:Console.WriteLine("Não encontrei");break;
         }
+        //laços de repetição
+        //For ou para 
+        //for (inicialização; condição; incremento)
+        for(var i = 0;i <=5;i++){
+            Console.WriteLine(i);
+        }
+        for(var numero= 0;numero != 10;numero++){
+            Console.WriteLine(numero);
+        }
+         for(var i = 5;i >=0;i--){
+            Console.WriteLine(i);
+        }
         }
     }
 }
