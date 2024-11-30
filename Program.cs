@@ -143,6 +143,13 @@ namespace MeuApp
             Console.WriteLine(val);
             val++;
         }
+        //Do
+        //Do = faça
+        var valorzin = 0;
+        do{
+            Console.WriteLine("Teste");
+            valorzin++;           
+        }while(valorzin<5);
         }
     }
 }
