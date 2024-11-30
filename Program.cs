@@ -132,6 +132,17 @@ namespace MeuApp
          for(var i = 5;i >=0;i--){
             Console.WriteLine(i);
         }
+        //While
+        var quantidade = 1;
+        while(quantidade < 10){
+            Console.WriteLine("VC essta ganhando pontos");
+            quantidade++;
+        }
+        int val = 0;
+        while(val<=5){
+            Console.WriteLine(val);
+            val++;
+        }
         }
     }
 }
