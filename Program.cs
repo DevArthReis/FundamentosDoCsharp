@@ -6,11 +6,11 @@ namespace MeuApp
     {
         static void Main(string[] args)
         { 
-        
+          
         //Função
         MeuMetodo();
-        string nome = RetornaNome("Arthur","Albuquerque");
-        Console.WriteLine(nome);
+         string nome = RetornaNome("Arthur","Albuquerque");
+         Console.WriteLine(nome);
         static void MeuMetodo(){
             Console.WriteLine("C# é legal");
         }
